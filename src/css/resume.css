@@ -1,0 +1,116 @@
+.resume .info-section {
+    width: 20%; }
+
+.resume .content-area {
+    margin-left: 30%;
+    width: 70%;
+    min-width: 300px;
+    background: white;
+    color: black;
+    height: 100%;
+    overflow: hidden; }
+    .resume .content-area .category {
+        margin-bottom: 56px; }
+        .resume .content-area .category h1 {
+            font-weight: 700;
+            font-size: 2rem;
+            text-transform: uppercase;
+            margin-bottom: 56px; }
+        .resume .content-area .category .xp-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 56px;
+            grid-row-gap: 30px;
+            max-width: 1000px; }
+            .resume .content-area .category .xp-section .xp-box {
+                padding: 30px;
+                transition: all .5s ease-in-out;
+                cursor: pointer; }
+                .resume .content-area .category .xp-section .xp-box:hover {
+                    -webkit-box-shadow: 0px 20px 71px 6px rgba(0, 0, 0, 0.12);
+                    -moz-box-shadow: 0px 20px 71px 6px rgba(0, 0, 0, 0.12);
+                    box-shadow: 0px 20px 71px 6px rgba(0, 0, 0, 0.12); }
+                .resume .content-area .category .xp-section .xp-box h5 {
+                    font-weight: 500;
+                    font-size: 1.3rem;
+                    margin-bottom: 1.4rem; }
+                .resume .content-area .category .xp-section .xp-box p {
+                    font-weight: 500;
+                    font-size: 1rem;
+                    margin-bottom: 1rem; }
+
+@media (min-width: 0px) and (max-width: 767px) {
+    html,
+    body {
+        height: auto; }
+    .resume .menu-icon {
+        top: -3px;
+        right: 20px;
+        color: white; }
+        .resume .menu-icon .fa {
+            color: white; }
+    .resume .info-section {
+        padding: 10px 30px;
+        position: static; }
+        .resume .info-section .logo {
+            height: 50px;
+            width: 70px;
+            font-size: 1rem; }
+        .resume .info-section .info-box {
+            display: none; }
+    .resume .content-area {
+        margin-left: 0;
+        width: 100%;
+        height: auto !important; }
+        .resume .content-area:after {
+            content: "";
+            display: table;
+            clear: both; }
+        .resume .content-area .scroll-section {
+            padding: 50px 20px;
+            width: 100%;
+            height: auto;
+            overflow: auto; }
+        .resume .content-area .category {
+            width: 100%; }
+            .resume .content-area .category .xp-section {
+                grid-template-columns: 1fr; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .resume .info-section {
+        width: 30%;
+        padding: 56px 30px; }
+        .resume .info-section .icon-section a {
+            font-size: 1.4rem; }
+    .resume .content-area {
+        height: auto;
+        width: 70%;
+        margin-left: 30%; }
+        .resume .content-area:after {
+            content: "";
+            display: table;
+            clear: both; }
+        .resume .content-area .category {
+            width: 100%; }
+            .resume .content-area .category .xp-section {
+                grid-template-columns: 1fr; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .resume .info-section {
+        width: 30%; }
+        .resume .info-section .icon-section a {
+            font-size: 1.4rem; }
+    .resume .content-area {
+        height: auto;
+        width: 70%;
+        margin-left: 30%; }
+        .resume .content-area:after {
+            content: "";
+            display: table;
+            clear: both; } }
+
+@media (min-width: 1200px) {
+    .resume .info-section {
+        width: 30%; }
+        .resume .info-section .icon-section a {
+            font-size: 1.4rem; } }

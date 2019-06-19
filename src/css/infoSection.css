@@ -1,0 +1,40 @@
+.logo {
+    text-transform: uppercase;
+    border: 5px solid #fff;
+    display: flex;
+    height: 130px;
+    width: 150px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    line-height: 0; }
+
+.info-section {
+    padding: 54px;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0; }
+    .info-section .info-box {
+        position: absolute;
+        bottom: 60px; }
+        .info-section .info-box h4 {
+            font-size: 1.2rem;
+            color: lightgrey;
+            margin: 0.7rem 0; }
+        .info-section .info-box p {
+            font-size: 0.9rem;
+            font-weight: 300;
+            color: darkgrey;
+            margin: 0.2rem 0 1.6rem; }
+    .info-section .icon-section a {
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 0 10px; }
+        .info-section .icon-section a:hover {
+            color: #6b6967; }
+        .info-section .icon-section a:first-child {
+            padding: 0 10px 0 0; }

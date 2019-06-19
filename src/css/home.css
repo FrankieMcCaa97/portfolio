@@ -1,0 +1,190 @@
+.home .info-section {
+    padding: 54px;
+    width: 35%;
+}
+
+.home .content-area {
+    margin-left: 35%;
+    width: 65%;
+    background: white;
+    color: black;
+    height: 100%;
+    overflow: auto;
+}
+
+.home .content-area .img-container {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+}
+
+.home .content-area .img-container .user-img {
+    position: absolute;
+    top: 56px;
+    left: -178px;
+    width: 350px;
+    height: calc(100% - 112px);
+    background: url("http://frankiemccaa.site/portfolio/src/img/frankie.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-shadow: 10px 10px 39px 0px #1a1a1c;
+    -moz-box-shadow: 10px 10px 39px 0px #1a1a1c;
+    box-shadow: 10px 10px 39px 0px #1a1a1c;
+}
+
+.home .content-area .profile-section {
+    vertical-align: top;
+    display: inline-block;
+    padding: 20% 0 0 0;
+    max-width: 500px;
+}
+
+.home .content-area .profile-section .profile h1 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 0 1rem;
+}
+
+.home .content-area .profile-section .profile h1 span {
+    color: grey;
+}
+
+.home .content-area .profile-section .profile h5 {
+    font-size: 1.1rem;
+    margin: 0 0 2rem;
+}
+
+.home .content-area .profile-section .profile p {
+    color: grey;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 0 0 2rem;
+}
+
+@media (max-width: 767px) {
+    .home .menu-icon {
+        top: -3px;
+        right: 20px;
+        color: white;
+    }
+    .home .menu-icon .fa {
+        color: white;
+    }
+    .home .content-area {
+        height: auto;
+    }
+    .home .content-area:after {
+        content: "0";
+        display: table;
+        clear: both;
+    }
+    .home .info-section {
+        width: 30%;
+        padding: 56px 30px;
+    }
+    .home .info-section .icon-section a {
+        font-size: 1.4rem;
+    }
+    .home .info-section .logo {
+        height: 50px;
+        width: 70px;
+        font-size: 1rem;
+    }
+    .home .info-section .info-box {
+        display: none;
+    }
+    .home .content-area {
+        margin-left: 0;
+        width: 100%;
+    }
+    .home .content-area .img-container {
+        padding: 56px 20px 0;
+    }
+    .home .content-area .img-container .user-img {
+        position: static;
+        width: 100%;
+    }
+    .home .content-area .profile-section {
+        width: 70%;
+        float: right;
+        padding: 20% 20px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .home .info-section {
+        width: 30%;
+        padding: 56px 30px;
+    }
+    .home .info-section .icon-section a {
+        font-size: 1.4rem;
+    }
+    .home .content-area {
+        margin-left: 30%;
+        width: 70%;
+    }
+    .home .content-area .img-container {
+        padding: 56px 20px 0;
+    }
+    .home .content-area .img-container .user-img {
+        position: static;
+        width: 100%;
+    }
+    .home .content-area .profile .primary-btn, .home .content-area .profile .ghost-btn {
+        margin-bottom: 20px;
+    }
+    .home .content-area .profile-section {
+        width: 70%;
+        float: right;
+        padding: 20% 20px 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .home .content-area .img-container {
+        padding: 56px 20px 0;
+        float: left;
+    }
+    .home .content-area .img-container .user-img {
+        position: static;
+        width: 100%;
+    }
+    .home .content-area .profile-section {
+        width: 70%;
+        float: left;
+        padding: 20% 20px 0;
+        max-width: 800px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .home .info-section {
+        width: 20%;
+        padding: 56px 30px;
+    }
+    .home .info-section .icon-section a {
+        font-size: 1.4rem;
+    }
+    .home .content-area {
+        width: 80%;
+        margin-left: 20%;
+    }
+    .home .content-area .img-container {
+        padding: 56px 20px 0;
+        float: left;
+    }
+    .home .content-area .img-container .user-img {
+        position: static;
+        width: 100%;
+    }
+    .home .content-area .profile-section {
+        width: 70%;
+        float: left;
+        padding: 20% 60px 0;
+        max-width: 800px;
+    }
+}
