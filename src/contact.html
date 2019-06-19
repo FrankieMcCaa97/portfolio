@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Barlow:100,300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./scss/main.scss">
+    <link rel="stylesheet" href="./css/main.css">
+    <meta name="viewport" content="width=device=width initial-scale=1.0">
+
+    <script>
+    function openNav() {
+      document.getElementById("menu").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("menu").style.width = "0px";
+    }
+    </script>
+
+  </head>
+  <body class="contact">
+    <div class="menu-icon">
+      <span class="open-btn" style="color:lightgrey" onclick="openNav()">&#9776;</span>
+    </div>
+    <section id="menu">
+      <nav>
+       <span class="close-btn" style="color:lightgrey;font-size:30px;cursor:pointer;" onclick="closeNav()">&times;</span>
+        <a href="./index.html">Home</a>
+         <a href="#">About</a>
+          <a href="./work.html">Portfolio</a>
+           <a href="./contact.html">Contact</a>
+           <a href="./resume.html">Resume</a>
+      </nav>
+    </section>
+    <section class="info-section">
+      <div class="logo">
+        Frankie
+      </div>
+        <div class="info-box">
+          <h4>Email</h4>
+          <p>frankiemccaa@rocketmail.com</p>
+          <h4>Phone</h4>
+          <p>314-688-3959</p>
+          <h4>Find Me On</h4>
+          <div class="icon-section">
+            <a href="https://www.linkedin.com/in/frankie-mccaa-a470a712b/">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/fmccaa1">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-dribbble"></i>
+            </a>
+          </div>
+      </div>
+    </section>
+    <section class="content-area">
+      <div class="img-container">
+      <div class="form-section">
+        <form action="/" method="POST">
+          <h4>Send a Message</h4>
+      <input type="text" name="name" value="" required placeholder="Name">
+      <input type="email" name="email" value="" required placeholder="Email">
+      <input type="text" name="budget" placeholder="budget">
+      <textarea name="message" rows="12" required placeholder="Message"></textarea>
+      <button type="submit" name="button">Send Message</button>
+    </form>
+      </div>
+      </div>
+
+        <div class="contact-section">
+          <div class="contact-info">
+            <h1>Contact Us</h1>
+          <div class="contact-box">
+            <h5>Phone</h5>
+            <p>(314) 359 4532</p>
+          </div>
+          <div class="contact-box">
+            <h5>Email</h5>
+            <p>frankiemccaa@rocketmail.com</p>
+          </div>
+          <div class="contact-box">
+            <h5>Address</h5>
+            <p>1423 road rich, St. Louis MO 63023</p>
+          </div>
+        <div>
+        </div>
+    </section>
+      <script type="text/javascript" src="./js/index.js"></script>
+  </body>
+</html>
